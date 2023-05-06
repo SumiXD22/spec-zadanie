@@ -1,0 +1,129 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+header {
+    border-bottom: 1px solid black;
+    display: flex;
+    height: 55px; 
+    
+}
+.Contact{
+   display: flex;
+   align-items: center;  
+   border-right: 1px solid rgb(0, 0, 0);
+}
+
+.contactTwo {
+    width: 100px;
+    text-align: center;
+}
+
+.book{
+    display: flex;
+    align-items: center;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    margin-right: -45px;
+}
+
+.bookTwo{
+    width: 100px;
+    text-align: center;
+}
+
+.line {
+    margin-left: 50px;
+    margin-right: 50px;
+    width: 80px;
+    
+}
+
+.baseText {
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+    position: relative;
+    top: 5px;
+    right: 50px;
+    font-size: 25px;
+}
+
+p {
+    position: relative;
+    text-align: center;
+    top: 7px;
+    right: 50px;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.icons {
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    width: 100px;
+    text-align: center;
+    margin-left: -45px;
+}
+
+i {
+    bottom: -10px;
+    font-size: 30px;
+    position: relative;
+
+}
+
+.contactTwo i {
+    bottom: 0;
+    font-size: 15px;
+}
+
+.server{
+    display: flex;
+    justify-content: space-around;
+    width: 87%;
+    margin: 10px auto;
+    overflow: hidden;
+}
+
+.block{
+    width: 30%;
+    position: relative;
+}
+
+.block img{
+    width: 100%;
+    height: 425px;
+    object-fit: cover;
+}
+.block .top{
+    font-weight: 700;
+    text-align: center;
+    color: rgb(255, 255, 255); 
+    position: absolute; 
+    top: 350px; 
+    width: 100%; 
+    font-family: 'Oswald', sans-serif;
+    transition: 0.3s all linear;
+}
+.block h4{
+    font-size: 15px;
+    text-align: center;
+    opacity: 0;
+    transition: 0.2s all linear;
+    color: white;
+}
+
+.block h2{
+    color: white;
+}
+
+.block .top:hover {
+     transform:  translate(0, -100px);
+}
+.block .top h4:hover {
+    opacity: 1;
+}
